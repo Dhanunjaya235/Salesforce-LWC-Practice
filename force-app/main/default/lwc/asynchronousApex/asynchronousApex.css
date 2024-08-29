@@ -1,0 +1,18 @@
+.async-apex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+lightning-card {
+    --slds-c-card-radius-border: 1rem;
+}
+
+.queuable {
+    min-width: 15rem;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

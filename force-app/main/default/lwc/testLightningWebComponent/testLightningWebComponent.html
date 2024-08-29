@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="WireGetRecord" icon-name="custom:custom67">
+        <div class="slds-var-m-horizontal_medium">
+            <template lwc:if={record.data}>
+                <div class="scroller">
+                    <pre>{recordStr}</pre>
+                </div>
+            </template>
+            <template lwc:elseif={record.error}>
+                <p>Error Occured</p>
+            </template>
+        </div>
+
+    </lightning-card>
+</template>

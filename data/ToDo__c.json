@@ -1,0 +1,83 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ToDo__c",
+                "referenceId": "ToDo__cRef1"
+            },
+            "Title__c": "Learn LWC",
+            "Status__c": "In-Progress",
+            "Description__c": "Need to learn LWC",
+            "Due_Date__c": "2024-07-30"
+        },
+        {
+            "attributes": {
+                "type": "ToDo__c",
+                "referenceId": "ToDo__cRef2"
+            },
+            "Title__c": "Learn advanced Apex concepts",
+            "Status__c": "In-Progress",
+            "Description__c": "Need to learn advanced Apex concepts like asynchronous Apex",
+            "Due_Date__c": "2024-07-31"
+        },
+        {
+            "attributes": {
+                "type": "ToDo__c",
+                "referenceId": "ToDo__cRef3"
+            },
+            "Title__c": "Learn Apex",
+            "Status__c": "In-Progress",
+            "Description__c": "Need to learn Apex",
+            "Due_Date__c": "2024-07-31"
+        },
+        {
+            "attributes": {
+                "type": "ToDo__c",
+                "referenceId": "ToDo__cRef4"
+            },
+            "Title__c": "Test Todo Rest APIs",
+            "Status__c": "In-Progress",
+            "Due_Date__c": "2024-07-31"
+        },
+        {
+            "attributes": {
+                "type": "ToDo__c",
+                "referenceId": "ToDo__cRef5"
+            },
+            "Title__c": "Test Add Todo Rest API with duedate trigger",
+            "Status__c": "In-Progress",
+            "Description__c": "Test Todo Rest APIs",
+            "Due_Date__c": "2024-07-31"
+        },
+        {
+            "attributes": {
+                "type": "ToDo__c",
+                "referenceId": "ToDo__cRef6"
+            },
+            "Title__c": "Test Add Todo Rest API with duedate trigger",
+            "Status__c": "In-Progress",
+            "Description__c": "Test Todo Rest APIs description",
+            "Due_Date__c": "2024-07-29"
+        },
+        {
+            "attributes": {
+                "type": "ToDo__c",
+                "referenceId": "ToDo__cRef7"
+            },
+            "Title__c": "Learn Email Services In Apex",
+            "Status__c": "In-Progress",
+            "Description__c": "Need to learn and implement email service in apex for todo",
+            "Due_Date__c": "2024-07-31"
+        },
+        {
+            "attributes": {
+                "type": "ToDo__c",
+                "referenceId": "ToDo__cRef8"
+            },
+            "Title__c": "Test Add Todo Rest API with duedate trigger",
+            "Status__c": "In-Progress",
+            "Description__c": "Test Todo Rest APIs description",
+            "Due_Date__c": "2024-07-29"
+        }
+    ]
+}

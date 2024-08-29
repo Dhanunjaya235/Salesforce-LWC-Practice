@@ -1,0 +1,70 @@
+.todo-container {
+    display: flex;
+    flex-direction: row;
+    /* Adjust spacing between todo items */
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 2rem;
+    column-gap: 5rem;
+}
+
+.todo-item {
+    background-color: #ffffff;
+    border-radius: 1.25rem;
+
+    flex: 1;
+    /* Make each todo item grow to fill available space */
+    max-width: 20rem;
+    /* Limit maximum width of each todo item */
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    flex-basis: 100%;
+}
+
+.header {
+    background-color: #b3d0ce;
+    height: 2.5rem;
+    align-items: center;
+    display: flex;
+    font-weight: 500;
+    font-size: 1.25rem;
+    padding-left: 1.5rem;
+    /* border-radius: 50px 50px 0px 0px; */
+}
+
+.field {
+    padding: 1rem 0px 0px 1.5rem;
+
+}
+
+.field-heading {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #222d44;
+}
+
+.field-value {
+    font-size: 1rem;
+    color: #188dc9;
+}
+
+
+.error-message {
+    color: red;
+    /* Example error message styling */
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Adjust spacing from the above content */
+}
+
+.actions {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.todo-data {
+    min-height: 20rem;
+}

@@ -1,0 +1,34 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ToDo__c",
+                "referenceId": "ToDo__cRef1"
+            },
+            "Title__c": "Learn LWC",
+            "Description__c": "Need to learn LWC",
+            "Status__c": "In-Progress",
+            "Due_Date__c": "2024-07-30"
+        },
+        {
+            "attributes": {
+                "type": "ToDo__c",
+                "referenceId": "ToDo__cRef2"
+            },
+            "Title__c": "Learn advanced Apex concepts",
+            "Description__c": "Need to learn advanced Apex concepts like asynchronous Apex",
+            "Status__c": "In-Progress",
+            "Due_Date__c": "2024-07-31"
+        },
+        {
+            "attributes": {
+                "type": "ToDo__c",
+                "referenceId": "ToDo__cRef3"
+            },
+            "Title__c": "Learn Apex",
+            "Description__c": "Need to learn Apex",
+            "Status__c": "In-Progress",
+            "Due_Date__c": "2024-07-31"
+        }
+    ]
+}

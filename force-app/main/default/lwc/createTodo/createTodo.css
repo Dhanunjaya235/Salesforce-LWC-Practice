@@ -1,0 +1,25 @@
+.todo-form {
+    width: 32rem;
+}
+
+.todo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.custom-border-radius::part(card) {
+    border-radius: 1rem;
+    /* Adjust the radius as needed */
+}
+
+lightning-card {
+    --slds-c-card-radius-border: 1rem;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,46 @@
+<template>
+    <template if:true={todos.length}>
+        <div class="todo-container">
+            <template for:each={todos} for:item="todo">
+                <div key={todo.Id} class="todo-item">
+                    <div class="header">
+                        <h1>{todo.Name}</h1>
+                    </div>
+                    <div class="todo-data">
+                        <div class="field">
+                            <h1 class="field-heading">Title</h1>
+                            <p class="field-value">{todo.Title__c}</p>
+                        </div>
+                        <div class="field">
+                            <h1 class="field-heading">Description</h1>
+                            <p class="field-value">{todo.Description__c}</p>
+                        </div>
+                        <div class="field">
+                            <h1 class="field-heading">Status</h1>
+                            <p class="field-value">{todo.Status__c}</p>
+                        </div>
+                        <div class="field">
+                            <h1 class="field-heading">Due Date</h1>
+                            <p class="field-value">{todo.Due_Date__c}</p>
+                        </div>
+                    </div>
+                    <div class="actions">
+                        <lightning-button id={todo.Id} name={todo.Name} label="Edit" icon-name="utility:edit"
+                            icon-position="right" variant="brand-outline" onclick={handleEdit} data-id={todo.Id}>
+                        </lightning-button>
+                        <lightning-button id={todo.Id} name={todo.Name} label="Delete" icon-name="utility:delete"
+                            icon-position="right" variant="destructive" onclick={handleDelete}>
+                        </lightning-button>
+
+                    </div>
+                </div>
+
+            </template>
+        </div>
+    </template>
+    <template if:false={todos.length}>
+        <div class="error-message">
+            <h1>No todos found.</h1>
+        </div>
+    </template>
+</template>

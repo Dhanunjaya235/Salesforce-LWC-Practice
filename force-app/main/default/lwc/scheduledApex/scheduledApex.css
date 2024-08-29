@@ -1,0 +1,9 @@
+.datetime {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+
+    .datefields {
+        width: 20rem;
+    }
+}

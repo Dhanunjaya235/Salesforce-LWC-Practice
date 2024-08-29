@@ -1,0 +1,28 @@
+<template>
+    <div class="todo-container">
+        <div class="todo-form">
+            <lightning-card title={cardTitle} class="todo-card">
+                <div class="slds-p-around_medium">
+                    <lightning-input type="text" name="title" label="Title" placeholder="Enter Title"
+                        onchange={handleChange} value={title}></lightning-input>
+                    <lightning-input type="text" name="description" label="Description" placeholder="Enter Description"
+                        onchange={handleChange} value={description}></lightning-input>
+                    <lightning-combobox onchange={handleChange} name="status" options={statusOptions} label="Status"
+                        placeholder="Select Status" value={status}></lightning-combobox>
+                    <lightning-input type="date" name="dueDate" label="Due Date" placeholder="Select Due Date"
+                        onchange={handleChange} value={dueDate}></lightning-input>
+                </div>
+
+                <div class="actions">
+                    <lightning-button label="Reset" icon-name="utility:clear" icon-position="left" variant="destructive"
+                        onclick={handleReset}>
+                    </lightning-button>
+                    <lightning-button label={buttonLabel} icon-name="utility:save" icon-position="left" variant="brand"
+                        onclick={handleSave} disabled={isFormFilled}>
+                    </lightning-button>
+                </div>
+
+            </lightning-card>
+        </div>
+    </div>
+</template>
