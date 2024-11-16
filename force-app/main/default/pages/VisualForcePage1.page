@@ -1,0 +1,5 @@
+<apex:page >
+    <h1>
+        Visual Force Page 1
+    </h1>
+</apex:page>

@@ -1,0 +1,4 @@
+<apex:page showHeader="false" label="DisplayImage" name="DisplayImage">
+    <apex:image id="DisplayImage" value="https://developer.salesforce.com/files/salesforce-developer-network-logo.png" width="220"
+        height="55" alt="DisplayImage" />
+</apex:page>

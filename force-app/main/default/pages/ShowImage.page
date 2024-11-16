@@ -1,0 +1,4 @@
+<apex:page label="ShowImage" name="ShowImage">
+    <apex:image id="StaticImage" url="{!URLFOR($Resource.vfimagetest, 'cats/ kitten1.jpg')}" width="220" height="55" alt="StaticImage"
+    />
+</apex:page>
